@@ -13,6 +13,7 @@ function sortear(){
 
     if (quantidade > (ate - de + 1)){
         alert('A quantidade de números a sortear é maior que o intervalo informado');
+        reiniciar();
         return;
     }
 
